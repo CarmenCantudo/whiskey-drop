@@ -1,4 +1,4 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -13,10 +13,10 @@ body{
 
 .alert-container {}
 
-.callout-container{
+.callout-container {
     height: 100vh;
 
-    background: url('../images/whiskey-background.jpg') no-repeat center center fixed;
+    background: url('../images/whiskey-background.jpg') no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -37,36 +37,6 @@ body{
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
 }
-
-.quotes-container{
-
-}
-.features-container{
-
-}
-
-/* Block dividers */
-
-.block-divider {
-    width: 75px;
-    height: 5px;
-    border: 0;
-    background-color: #444;
-}
-
-.block-divider--orange {
-    background-color: #f05f40;
-}
-
-.block-divider--white {
-    background-color: white;
-}
-
-.block-divider--short {
-    width: 35px;
-}
-
-/* Content container */
 
 .content-container {
     padding-top: 75px;
@@ -103,10 +73,18 @@ body{
     font-weight: bold;
 }
 
+
 /* Jumbotron */
 
 .jumbotron {
     background-color: transparent;
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: white;
 }
 
 .jumbotron .lead {
@@ -120,10 +98,25 @@ body{
     color: #d0d0d0;
 }
 
-.jumbotron-header {
-    color:white;
-    font-weight: bold;
-    margin-bottom: 30px;
+/* Block dividers */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+}
+
+.block-divider--orange {
+    background-color: #f05f40;
+}
+
+.block-divider--white {
+    background-color: white;
+}
+
+.block-divider--short {
+    width: 35px;
 }
 
 /* Buttons */
@@ -178,6 +171,11 @@ body{
     margin-top: 0;
 }
 
+/* Quotes */
+
+.quotes .page-header {
+    margin-bottom: 25px;
+}
 
 /* Features */
 
