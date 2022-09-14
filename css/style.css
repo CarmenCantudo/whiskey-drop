@@ -199,3 +199,15 @@ body {
     margin-top: 10px;
     color: #f05f40;
 }
+
+/* Monthly Favourites */
+
+.table thead th {
+    border-top: none;
+}
+
+.table {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
