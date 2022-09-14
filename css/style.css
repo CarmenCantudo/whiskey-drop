@@ -212,11 +212,11 @@ body {
     margin-right: auto;
 }
 
-footer{
+.footer{
     background-color: #f05f40;
 }
 
-footer p {line-height: 35px;
+.footer p {line-height: 35px;
     color: white;
     text-align: center;
     padding: 10px;
